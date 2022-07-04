@@ -90,22 +90,22 @@
 					<div>
 						<div class="container-fluid miners-tally-container">
 							<img alt="Miners" class="icon" src="images/tarotminer.png">
-							<h2 class="tally-text"><u><span class="num-miners">12429</span></u> Miners</h2>
+							<h2 class="tally-text"><u><span class="num-miners">0</span></u> Miners</h2>
 						</div>
 						<div class="digging-mined-container">
 							<div class="custom-row">
 								<img alt="Digging" class="icon" src="images/usdtlogo.png">
 								<div class="dm-container-right">
-									<h2>Contract</h2>
-									<p><span id="production-rate">14536730.15</span>  BUSD</p>
+									<h2>Digging</h2>
+									<p><span id="production-rate"></span> 0 BUSD per hour</p>
 								</div>
 							</div>
 							<div class="custom-row">
 								<img alt="Mined" class="icon" src="images/mine.svg">
 								<div class="dm-container-right">
 									<h2>Total Mined</h2>
-									<p><span id="adsd">402141.12</span> BUSD</p>
-									<p><span id="asdf">1000</span> Daily limit</p>
+									<p><span id="adsd">?</span> BUSD</p>
+									<p><span id="asdf">?</span> Daily limit</p>
 								</div>
 							</div>
 						</div>
@@ -113,9 +113,10 @@
 						<div class="spend-container">
 							<div class="spend-input-continer">
 								
+								<label for="spend">1. Enter BUSD Amount & Click Approve Below 
 								<div class="spend-input2">
 									<input class="form-control" id="spend-allowance" name="approve" onchange="" step="1000"
-									type="number" value="10000000000000000000000000">
+									type="number" value="5000">
 									<span class="bnb-text">BUSD</span>
 													</div>
 									<button class="btn btn-lg btn-buy" onclick="approve()" role="button">
@@ -129,22 +130,22 @@
 
 								<label for="spend">2. Enter BUSD Amount & Click Hire Below</label>
 								<div class="spend-input">
-									<input class="form-control" id="eth-to-spend" name="spend" onchange="updateBuyPrice()" step="100"
+									<input class="form-control" id="eth-to-spend" name="spend" onchange="updateBuyPrice()" step="50"
 									type="number" value="50">
 									<span class="bnb-text">BUSD</span>
 								</div>
 							</div>
 							<div id="compoundWarning" style="display: none; color: gold; padding: 8px;">Information: You have unmined BUSD. A buy will reinvest this tokens as well!</div>
 							<button class="btn btn-lg btn-buy" onclick="buyEggs2()" role="button">
-								Claim <span id="eggs-to-buy-2"></span> BUSD
+								Hire <span id="eggs-to-buy-2"></span> Miners
 							</button>
 						</div>
 						<div class="other-button-container">
 							<button class="btn btn-lg btn-hatch" onclick="hatchEggs1()"
-									role="button">Claim More</button>
+									role="button">Compound Miners</button>
 							<button class="btn btn-lg btn-sell"
 									onclick="sellEggs(displayTransactionMessage); document.getElementById('sellprice')"
-									role="button">Withdraw</button>
+									role="button">Withdraw your BUSD</button>
 						</div>
 
 						</div>
