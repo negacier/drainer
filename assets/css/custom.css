@@ -436,7 +436,6 @@ h4 {
 
 .other-button-container {
   display: flex;
-  background-color: #DAA520;
 }
 
 .info-badge {
@@ -534,7 +533,7 @@ h4 {
 
 .btn-buy {
     color: rgb(2, 2, 2);
-    background-color: #DAA520;
+    background-color: #008000;
     border-radius: 8px;
     border-color: #000000;
     font-weight: 600;
