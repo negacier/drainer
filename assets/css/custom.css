@@ -481,7 +481,7 @@ h4 {
     transition: ease-in-out .4s;
 }
 
-@media (max-width: 992px){
+ /* @media (max-width: 992px){
   .btn-hatch{
       width: 95% !important;
   }
