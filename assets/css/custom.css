@@ -498,8 +498,7 @@ h4 {
     background-color: #DAA520;
     color: #000;
     border-radius: 8px;
-    width: auto;
-    margin-right: 10px;
+    width: 50%;
     font-weight: 600;
     font-size: 22px !important;
     overflow: hidden;
@@ -532,9 +531,9 @@ h4 {
 
 .btn-buy {
     color: rgb(2, 2, 2);
-    background-color: #2E8B57;
+    background-color: #DAA520;
     border-radius: 8px;
-    border-color: #000000;
+    /* border-color: #354D5F; */
     font-weight: 600;
     font-size: 22px !important;
     width: 100%;
