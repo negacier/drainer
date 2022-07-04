@@ -1,7 +1,7 @@
 body {
     /* font-family: 'Proxima Nova', Georgia, sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFD700;
+    background-color: #F5F5F5;
     background-image: url("../../images/usdtbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ nav {
     position: relative;
     font-weight: bold;
     font-size: 5rem !important;
-    background-color: #748392;
+    background-color: #DAA520;
     padding: 10px 20px;
     border-radius: 8px;
     min-height: 20px;
@@ -393,7 +393,7 @@ nav {
 
 .buy-contain-left {
     min-height: 180px;
-    background-color: #ffffff;
+    background-color: #DAA520;
     border-radius: 20px;
     z-index: 1;
     height: 100%;
@@ -497,7 +497,7 @@ h4 {
 }
 
 .btn-sell{
-    background-color: #23b574;
+    background-color: #DAA520;
     color: #000;
     border: 1px solid #000;
     border-radius: 8px;
@@ -533,7 +533,7 @@ h4 {
 
 .btn-buy {
     color: rgb(2, 2, 2);
-    background-color: #23b574;
+    background-color: #DAA520;
     border-radius: 8px;
     border-color: #000000;
     font-weight: 600;
@@ -580,7 +580,7 @@ h4 {
   font-size: 22px;
   font-weight: 600;
   color: #ffffff;
-  background-color: #748392;
+  background-color: #DAA520;
   border: 2px solid #000000;
   border-radius: 8px;
 }
