@@ -498,7 +498,8 @@ h4 {
     background-color: #DAA520;
     color: #000;
     border-radius: 8px;
-    width: 100%;
+    width: 50%;
+    margin-right: 10px;
     font-weight: 600;
     font-size: 22px !important;
     overflow: hidden;
