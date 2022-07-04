@@ -54,7 +54,7 @@ nav {
   position: relative;
   font-weight: bold;
   font-size: 5rem !important;
-  background-color: White;
+  background-color: #F5F5F5;
   padding: 10px 20px;
   border-radius: 8px;
   min-height: 20px;
@@ -581,7 +581,7 @@ h4 {
   font-size: 22px;
   font-weight: 600;
   color: #000000;
-  background-color: #DAA520;
+  background-color: #F5F5F5;
   border: 2px solid #000000;
   border-radius: 8px;
 }
