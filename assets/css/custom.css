@@ -54,7 +54,7 @@ nav {
   position: relative;
   font-weight: bold;
   font-size: 5rem !important;
-  background-color: #748392;
+  background-color: White;
   padding: 10px 20px;
   border-radius: 8px;
   min-height: 20px;
@@ -209,7 +209,6 @@ nav {
     min-height: 20px;
     margin-top: 10px;
     margin-bottom: 40px;
-    border: 1px solid #000;
 }
 
 .miners-tally-container h1 {
