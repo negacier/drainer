@@ -100,7 +100,7 @@ nav {
 }
 
 .spend-container {
-
+    
 }
 
 .jumbotron {
@@ -466,6 +466,7 @@ h4 {
 .btn-hatch{
     background-color: #DAA520;
     color: #000;
+    border: 1px solid #000;
     border-radius: 8px;
     width: 50%;
     margin-right: 10px;
@@ -497,6 +498,7 @@ h4 {
 .btn-sell{
     background-color: #DAA520;
     color: #000;
+    border: 1px solid #000;
     border-radius: 8px;
     width: 50%;
     font-weight: 600;
@@ -533,7 +535,7 @@ h4 {
     color: rgb(2, 2, 2);
     background-color: #23b574;
     border-radius: 8px;
-    border-color: #000000;
+    /*border-color: #000000;*/
     font-weight: 600;
     font-size: 22px !important;
     width: 100%;
@@ -578,7 +580,7 @@ h4 {
   font-size: 22px;
   font-weight: 600;
   color: #000000;
-  background-color: #F5F5F5;
+  background-color: transparent;
   border: 2px solid #000000;
   border-radius: 8px;
 }
