@@ -531,9 +531,9 @@ h4 {
 
 .btn-buy {
     color: rgb(2, 2, 2);
-    background-color: #DAA520;
+    background-color: #23b574;
     border-radius: 8px;
-    /* border-color: #354D5F; */
+    border-color: #000000;
     font-weight: 600;
     font-size: 22px !important;
     width: 100%;
