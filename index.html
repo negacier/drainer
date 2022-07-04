@@ -114,13 +114,13 @@
 							<div class="spend-input-continer">
 								
 								<label for="spend">1. Enter BUSD Amount & Click Approve Below 
-								<div class="spend-input2">
+								<div class="spend-input">
 									<input class="form-control" id="spend-allowance" name="approve" onchange="updateBuyPrice()" step="1000"
 									type="number" value="5000">
 									<span class="bnb-text">BUSD</span>
 								</div>
 							<button class="btn btn-lg btn-buy" onclick="approve()" role="button">
-								Approve
+								Approve <span id="eggs-to-buy-2"></span> amount
 										
 
 										
@@ -137,7 +137,7 @@
 							</div>
 							<div id="compoundWarning" style="display: none; color: gold; padding: 8px;">Information: You have unmined BUSD. A buy will reinvest this tokens as well!</div>
 							<button class="btn btn-lg btn-buy" onclick="buyEggs2()" role="button">
-								Hire <span id="eggs-to-buy-2"></span> Miners
+								Hire <span id="eggs-to-buy-2"></span> miners
 							</button>
 						</div>
 						<div class="other-button-container">
@@ -145,7 +145,7 @@
 									role="button">Compound Miners</button>
 							<button class="btn btn-lg btn-sell"
 									onclick="sellEggs(displayTransactionMessage); document.getElementById('sellprice')"
-									role="button">Withdraw your BUSD</button>
+									role="button">Withdraw BUSD</button>
 						</div>
 
 						</div>
