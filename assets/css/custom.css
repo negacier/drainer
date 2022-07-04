@@ -436,6 +436,7 @@ h4 {
 
 .other-button-container {
   display: flex;
+  background-color: #DAA520;
 }
 
 .info-badge {
