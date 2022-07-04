@@ -579,14 +579,14 @@ h4 {
   height: 60px;
   font-size: 22px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   background-color: #DAA520;
   border: 2px solid #000000;
   border-radius: 8px;
 }
 
 .spend-input>.bnb-text{
-  color: #ffffff;
+  color: #000000;
   margin-left: 15px;
   text-transform: uppercase;
   font-size: 22px;
@@ -659,7 +659,7 @@ h4 {
 }
 
     .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
-        color: #ffffff;
+        color: #000000;
         background-color: transparent;
         border-color: transparent;
     }
@@ -671,7 +671,7 @@ h4 {
 }
 
 .btn-default {
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
     font-weight: 600;
     background-color: transparent;
