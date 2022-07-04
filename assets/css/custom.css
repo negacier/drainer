@@ -189,7 +189,7 @@ nav {
 }
 
 .apr {
-  background-color: #748392;
+  background-color: #FFD700;
   color: #fff !important;
   padding: 5px 10px;
   border-radius: 5px;
@@ -197,7 +197,6 @@ nav {
   font-size: 16px;
   margin: 0;
   line-height: 1.5;
-  border: 1px solid #000;
 }
 
 .miners-tally-container {
